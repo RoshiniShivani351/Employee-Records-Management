@@ -1,0 +1,158 @@
+/* Container styling */
+.container {
+    width: 90%;
+    margin: 20px auto;
+    border: 2px solid #761650;
+    padding: 15px 50px 40px 50px;
+    color: #700244;
+    background-color: #ffffff;
+    border-radius: 12px;
+    font-family: 'Arial', sans-serif;
+    text-align: left;
+}
+
+/* Heading style */
+.table-container h2 {
+    color: #3101a0;
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;   /* makes only heading centered */
+}
+
+
+/* Add Employee button */
+.btn{
+    background-color:#761650;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    text-align: left;
+    cursor: pointer;
+     text-decoration: none;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+/* Table styling */
+.employee-table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.employee-table th {
+    background-color: #761650;
+    color: white;
+    padding: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.employee-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+/* Space between buttons */
+.employee-table button {
+    margin-right: 8px;
+}
+
+/* Row hover effect */
+.employee-table tr:hover {
+    background-color: #f2f2f2;
+}
+
+/* Action buttons */
+.btn-info {
+    background-color: #0385d1;
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #761650;
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-danger {
+    background-color: #d1061b;
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .employee-table th, 
+    .employee-table td {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    button {
+        padding: 4px 8px;
+        font-size: 12px;
+    }
+}
+
+
+form input {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #999;
+  border-radius: 4px;
+   text-align: left;
+}
+
+.csscontainer{
+    text-align: left;
+    width: 90%;
+    margin: 40px auto;
+    border: 2px solid #761650;
+    padding: 30px;
+    color: black;
+    background-color: #ffffff;
+    border-radius: 12px;
+    font-family: 'Arial', sans-serif;
+}
+
+
+.btn-back {
+  background-color: #df0e0e !important;
+  color: #fff !important;
+  padding: 9px 15px !important;   /* same size as Save */
+  border-radius: 6px;
+  display: inline-block;
+  margin-left: 10px; /* space between Save & Back buttons */
+}
+
+.errorMsg {
+  color: red;
+  font-size: 13px;
+  margin-top: 4px;
+}
+
+.add-btn {
+    display: inline-block;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+

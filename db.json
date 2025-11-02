@@ -1,0 +1,22 @@
+{
+  "employees": [
+    {
+      "id": "5",
+      "name": "rosh",
+      "role": "analyst",
+      "place": "hyd"
+    },
+    {
+      "id": "6",
+      "name": "janu",
+      "role": "software ",
+      "place": "secunderabad"
+    },
+    {
+      "id": "4",
+      "name": "sony",
+      "role": "dev",
+      "place": "rajahmundry"
+    }
+  ]
+}
