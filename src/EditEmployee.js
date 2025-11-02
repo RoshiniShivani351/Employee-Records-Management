@@ -21,7 +21,7 @@ const[id,setId]=useState("");                 //when we are updating the values 
             setPlace(data.place);
         })
         .catch((err)=>console.log(err.message))
-     },[]);
+     },[employeeid]);
    
 const handleSubmit=(e)=>{
     e.preventDefault(); 

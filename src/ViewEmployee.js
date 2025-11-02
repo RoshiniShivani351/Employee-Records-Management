@@ -9,7 +9,7 @@ export default function ViewEmployee(){
         .then((res)=>res.json())
         .then((data)=>setEmployee(data))
         .catch((err)=>console.log(err.message))
-     },[]);
+     },[employeeid]);
     return(
      <div className="container" style={{ textAlign: "center" }}>
         <h1>Employee Details</h1>
